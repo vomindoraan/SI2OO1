@@ -5,7 +5,7 @@ Ovaj repozitorijum sadrži rešenja ispitnih zadataka i zadataka sa laboratorijs
 
 Svi moji kodovi su ispravni i napisani na dobrom C++, ali postoji mogućnost da neki zadaci nisu završeni do kraja.
 
-Hvala kolegi [Bebiću](https://github.com/nikolabebic95) na doprinosu kodova za ispitne zadatke.
+Hvala kolegi [Bebiću](https://github.com/nikolabebic95) na doprinosu većeg broja kodova za ispitne zadatke.
 
 Sadržaj
 -------
