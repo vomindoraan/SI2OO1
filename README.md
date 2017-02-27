@@ -1,9 +1,11 @@
 SI2OO1
 ======
 
-Ovaj repozitorijum sadrži moja rešenja ispitnih zadataka i zadataka sa laboratorijskih vežbi na predmetu Objektno orijentisano programiranje 1 na Elektrotehničkom fakultetu Univerziteta u Beogradu.
+Ovaj repozitorijum sadrži rešenja ispitnih zadataka i zadataka sa laboratorijskih vežbi na predmetu Objektno orijentisano programiranje 1 na Elektrotehničkom fakultetu Univerziteta u Beogradu.
 
-Svi kodovi su ispravni i napisani na dobrom C++, ali postoji mogućnost da neki zadaci nisu završeni do kraja.
+Svi moji kodovi su ispravni i napisani na dobrom C++, ali postoji mogućnost da neki zadaci nisu završeni do kraja.
+
+Hvala kolegi [Bebiću](https://github.com/nikolabebic95) na doprinosu kodova za ispitne zadatke.
 
 Sadržaj
 -------
