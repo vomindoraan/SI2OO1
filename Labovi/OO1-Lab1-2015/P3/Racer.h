@@ -28,8 +28,8 @@ public:
 
 private:
 	Timestamp time_;
-	// Iako time_ nije postavljeno u ctor-u, automatski je (0,0,0) zato što se
-	// svi atributi na početku inic. svojim podraz. ctor-om (npr. Timestamp())
+	// Iako time_ nije postavljeno u ktor-u, automatski je (0,0,0) zato što se
+	// svi atributi na početku inic. svojim podraz. ktor-om (npr. Timestamp())
 };
 
 #endif // !_RACER_H_

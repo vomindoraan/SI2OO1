@@ -42,7 +42,7 @@ bool Race::add(const Racer& racer)
 	}
 
 	racers_[i] = new Racer(racer);
-	// Dinamički se stvara novi Trkač obj. pozivom podraz. *kopirajućeg ctor-a*
+	// Dinamički se stvara novi Trkač obj. pozivom podraz. *kopirajućeg ktor-a*
 	// Racer(Racer&). Kopija se pravi zato što, ako prosleđeni objekat racer
 	// prestane da živi (uništi se) van kontrole Trke koja ga sadrži, u nizu
 	// će ostati pok. koji sad pokazuje na slobodnu mem. i može izazvati pucanje

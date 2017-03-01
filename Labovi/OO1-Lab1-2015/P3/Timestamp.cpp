@@ -27,6 +27,6 @@ Timestamp::CmpResult Timestamp::compare(const Timestamp& other) const
 {
 	auto ts = inSeconds(), os = other.inSeconds(); // Pretvara oba u sekunde
 	return (ts < os)  ? BEFORE :
-		   (ts == os) ? EQUAL :
-		                AFTER;
+	       (ts == os) ? EQUAL :
+	                    AFTER;
 }
