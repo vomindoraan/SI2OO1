@@ -1,5 +1,5 @@
 ﻿#include "Race.h"
-#include "Timestamp.h" // Timestamp::AFTER
+#include "Time.h" // Time::AFTER
 
 Race::Race(const Race& other) :
 	capacity_(other.capacity_), size_(other.size_),
@@ -35,7 +35,7 @@ bool Race::add(const Racer& racer)
 	unsigned i;
 	for (i = size_; i > 0; --i) { // Nalazi indeks na kog treba ubaciti Trkača
 		auto t1 = racers_[i-1]->time(), t2 = racer.time();
-		if (t1.compare(t2) != Timestamp::AFTER) {
+		if (t1.compare(t2) != Time::AFTER) {
 			break;
 		}
 		racers_[i] = racers_[i-1]; // Pomera ostale Trkače naviše

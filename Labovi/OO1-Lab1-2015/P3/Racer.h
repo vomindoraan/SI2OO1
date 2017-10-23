@@ -1,7 +1,7 @@
 ﻿#ifndef _RACER_H_
 #define _RACER_H_
 
-#include "Timestamp.h"
+#include "Time.h"
 
 #include <iostream>
 #include <string>
@@ -17,8 +17,8 @@ public:
 	{}
 
 	// time_ je privatno pa mu trebaju getter i setter
-	const Timestamp& time() const     { return time_; }
-	void time(const Timestamp& value) { time_ = value; } // Setter nije const
+	const Time& time() const     { return time_; }
+	void time(const Time& value) { time_ = value; } // Setter nije const
 
 	void write() const {
 		std::cout << '[' << name << " - ";
@@ -27,9 +27,9 @@ public:
 	}
 
 private:
-	Timestamp time_;
+	Time time_;
 	// Iako time_ nije postavljeno u ktor-u, automatski je (0,0,0) zato što se
-	// svi atributi na početku inic. svojim podraz. ktor-om (npr. Timestamp())
+	// svi atributi na početku inic. svojim podraz. ktor-om (npr. Time())
 };
 
 #endif // !_RACER_H_

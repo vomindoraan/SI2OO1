@@ -144,12 +144,12 @@
   <ItemGroup>
     <ClInclude Include="Race.h" />
     <ClInclude Include="Racer.h" />
-    <ClInclude Include="Timestamp.h" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Race.cpp" />
-    <ClCompile Include="Timestamp.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

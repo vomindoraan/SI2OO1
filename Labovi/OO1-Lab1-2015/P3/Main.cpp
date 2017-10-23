@@ -1,4 +1,4 @@
-﻿#include "Race.h" // Uključuje sa sobom i Racer.h i Timestamp.h
+﻿#include "Race.h" // Uključuje sa sobom i Racer.h i Time.h
 
 #include <climits> // UINT_MAX
 
