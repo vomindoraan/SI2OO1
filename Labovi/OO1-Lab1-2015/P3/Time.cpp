@@ -1,6 +1,6 @@
 ﻿#include "Time.h"
 
-// Sve metode koje su def. u samoj klasi, u header fajlu, su automatski inline
+// Sve metode koje su def. u samoj klasi, u zaglavlju, su automatski inline
 // Neke složenije metode, koje npr. imaju petlje ili pozive f-ja ne treba pisati
 // u klasi, već samo navesti njihov potpis, a implementirati ih u .cpp fajlu
 
@@ -10,7 +10,8 @@ Time Time::plus(const Time& other) const
 	auto s = s_ + other.s_;
 	auto m = m_ + other.m_ + s / 60;
 	auto h = h_ + other.h_ + m / 60;
-	return Time(h, m % 60, s % 60);
+	// Može se koristiti inic. lista, a prevodilac zna da treba da stvori Time
+	return { h, m % 60, s % 60 };
 }
 
 // Ovde treba proširiti i CmpResult sa Time:: jer je taj tip član klase
