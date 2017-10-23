@@ -6,7 +6,7 @@
 // Vreme
 class Time {
 public:
-	// Povratni tip f-je poređenja. Kreće od -1 da bi bilo kao strcmp(): -1 0 1
+	// Povratni tip f-je poređenja; kreće od -1 da bi bilo kao strcmp(): -1 0 1
 	enum CmpResult { BEFORE = -1, EQUAL, AFTER };
 	
 	// Namerno bez explicit da bi moglo npr. Racer r1({1, 28, 14})

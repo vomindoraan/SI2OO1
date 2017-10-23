@@ -2,7 +2,7 @@
 
 #include <climits> // UINT_MAX
 
-using namespace std; // U main fajlu je ovo ok pisati
+using namespace std; // U fajlu s glavnim programom je ovo u redu pisati
 
 int main()
 {

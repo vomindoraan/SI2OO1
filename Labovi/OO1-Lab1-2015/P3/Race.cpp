@@ -33,7 +33,7 @@ bool Race::add(const Racer& racer)
 	}
 
 	unsigned i;
-	for (i = size_; i > 0; --i) { // Nalazi indeks na kog treba ubaciti Trkača
+	for (i = size_; i > 0; --i) { // Nalazi indeks i na kog treba ubaciti Trkača
 		auto t1 = racers_[i-1]->time(), t2 = racer.time();
 		if (t1.compare(t2) != Time::AFTER) {
 			break;

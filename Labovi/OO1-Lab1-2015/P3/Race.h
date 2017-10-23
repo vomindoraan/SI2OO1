@@ -15,10 +15,10 @@ public:
 	{}
 	
 	// Ova klasa upravlja nekim resursom (dinamički niz), pa pored svog ktor-a
-	// mora imati i:    -kopirajući ktor    -premeštajući ktor    -destruktor
-	// (kasnije i:      -kopirajući operator=      -premeštajući operator=   )
+	// mora imati i:   • kopirajući ktor   • premeštajući ktor   • destruktor
+	// (kasnije i:     • kopirajući operator=     • premeštajući operator=   )
 
-	Race(const Race& other); // Kopirajući ktor   (prima lvalue ref)
+	Race(const Race& other); // Kopirajući ktor   (prima const lvalue ref)
 	Race(Race&& other);      // Premeštajući ktor (prima rvalue/xvalue ref)
 	~Race();                 // Destruktor
 
