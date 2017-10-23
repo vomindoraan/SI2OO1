@@ -16,9 +16,10 @@ public:
 	{}
 
 	// Svi getter-i su const jer ne menjaju stanje objekta
-	unsigned h() const { return h_; }
-	unsigned m() const { return m_; }
-	unsigned s() const { return s_; }
+	// C++14 omogućava da povr. tip f-je bude auto tamo gde se može zaključiti
+	auto h() const { return h_; }
+	auto m() const { return m_; }
+	auto s() const { return s_; }
 
 	// Sabira ovo Vreme sa prosleđenim i vraća rezultujuće Vreme *po vrednosti*
 	Time plus(const Time& other) const;
@@ -33,7 +34,7 @@ private:
 	unsigned h_, m_, s_; // Pisanje _ posle imena priv. atributa je dobra praksa
 
 	// Pomoćna f-ja koja pretvara Vreme u sekunde (olakšava poređenje)
-	unsigned inSeconds() const { return h_*3600 + m_*60 + s_; }
+	auto inSeconds() const { return h_*3600 + m_*60 + s_; }
 };
 
 #endif // !_TIME_H_
