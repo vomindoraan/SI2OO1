@@ -21,6 +21,4 @@ int main()
 	cout << race.add(r4) << ' ';
 	cout << race.add(r4) << endl;
 	race.write();
-	
-	return 0;
 }
