@@ -1,0 +1,1 @@
+//izdvoj duze metode u ovaj fajl
